@@ -16,13 +16,11 @@ var arrayStrings = [String]()
 arrayStrings = ["Emerson", "Denzyl", "Wouter", "Kishen"]
 print(arrayStrings)
 
-
 // Dictionary
 
-var arrayDictionary = [String:String]()
-arrayDictionary = ["rock":"Metallica", "pop":"NSync","rap":"NWA"]
+var arrayDictionary = [String: String]()
+arrayDictionary = ["rock": "Metallica", "pop": "NSync", "rap": "NWA"]
 print(arrayDictionary)
-
 
 // Sets
 // Empty set
