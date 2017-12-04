@@ -37,6 +37,6 @@ print(stringSet)
 
 // set with integers
 
-var integerSet = Set<Int>()
+var integerSet = Set<Int, Int>()
 integerSet = [1, 2, 3, 4, 5, 6]
 print(integerSet)

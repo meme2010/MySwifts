@@ -9,7 +9,6 @@ func myName(name: String) -> String {
 
 func myLastName(surname: String) {
 	print("My last name is \(surname)")
-
 }
 
 func myAge(age: Int) -> Int {

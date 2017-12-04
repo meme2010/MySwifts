@@ -5,8 +5,8 @@ import Foundation
 var arrayStrings = [String]()
 arrayStrings = ["Emerson", "Denzyl", "Wouter", "Kishen"]
 
-var arrayDictionary = [String:String]()
-arrayDictionary = ["rock":"Metallica", "pop":"NSync","rap":"NWA"]
+var arrayDictionary = [String: String]()
+arrayDictionary = ["rock": "Metallica", "pop": "NSync", "rap": "NWA"]
 
 // for loop array of string
 
@@ -24,7 +24,6 @@ for value in intArray {
     print(sum)
 }
 
-
 // for loop array of a dictionary
 
 for (key, value) in arrayDictionary {
@@ -39,7 +38,7 @@ var counter = 50
 while counter > timer {
 	counter -= 1
     print(counter)
-    if counter == timer{
+    if counter == timer {
     	print("Time is up!!!!")
     }
 }
